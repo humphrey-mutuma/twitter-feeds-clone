@@ -29,15 +29,13 @@
 }
 /* button */
 .btn_tweet{
- color: white;
- border: none;
- outline: none;
- background-color: #1DA1F2 ;
- font-size: 1rem;
- width: 11rem;
- height: 3rem;
- border-radius: 2rem;
- margin-top: 5px;
+ color: white !important;
+ background-color: #1DA1F2 !important;
+ font-size: 1rem !important;
+ width: 11rem !important;
+ height: 3rem !important;
+ border-radius: 2rem !important;
+ margin-top: 5px !important;
  cursor: pointer;
 }
 /* footer */

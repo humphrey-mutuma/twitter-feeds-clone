@@ -9,10 +9,10 @@ function App() {
       <section className="app__menu">
         <Menu />
       </section>
-      <main className="tweets">
+      <main className="app__tweets">
         <Tweets />
       </main>
-      <section className="treading">
+      <section className="app__treading">
         <Treading />
       </section>
     </div>

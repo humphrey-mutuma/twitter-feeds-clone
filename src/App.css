@@ -14,18 +14,18 @@
 section::-webkit-scrollbar {
   display: none;
 }
-/* middle tweets section */
-.tweets{
+/* middle app__tweets section */
+.app__tweets{
  min-height: 100vh;
  overflow-y: scroll;
  width: 43vw;
  border: 1px solid red;
 }
-.tweets::-webkit-scrollbar {
+.app__tweets::-webkit-scrollbar {
   display: none;
 }
-/* right side treading section */
-.treading {
+/* right side app__treading section */
+.app__treading {
  min-height: 100vh;
  overflow-y: scroll;
  width: 30vw;

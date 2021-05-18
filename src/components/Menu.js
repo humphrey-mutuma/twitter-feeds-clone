@@ -74,25 +74,26 @@ const Menu = () => {
           </IconButton>
         </li>
         <li>
-          <button className="btn_tweet">Tweet</button>
+          <Button variant="contained" className="btn_tweet">
+            Tweet
+          </Button>
         </li>
-        
+
         <li className="menu__profile iconButton">
-        <div>
-          <Avatar alt="Humphrey" src="/" />
-        </div>
-        <div>
-          <p>
-            <strong>Humphrey Mutuma</strong>
-          </p>
-          <p>@HumphreyMutuma</p>
-        </div>
-        <div>
-          <MoreHorizSharpIcon />
-        </div>
-      </li>
+          <div>
+            <Avatar alt="Humphrey" src="/" />
+          </div>
+          <div>
+            <p>
+              <strong>Humphrey Mutuma</strong>
+            </p>
+            <p>@HumphreyMutuma</p>
+          </div>
+          <div>
+            <MoreHorizSharpIcon />
+          </div>
+        </li>
       </ul>
-      
     </div>
   );
 };
