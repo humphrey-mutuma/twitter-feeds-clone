@@ -1,17 +1,33 @@
 .app{
-  width: 100vw;
+  max-width: 100vw;
   min-height: 100vh ;
   display: flex;
+  justify-content: space-evenly;
 }
-/* left side menu */
-.menu{
-
+/* left side app__menu */
+.app__menu{
+ min-height: 100vh;
+ overflow-y: scroll;
+ width: 20vw;
+ border: 1px solid blue;
+}
+section::-webkit-scrollbar {
+  display: none;
 }
 /* middle tweets section */
 .tweets{
-
+ min-height: 100vh;
+ overflow-y: scroll;
+ width: 43vw;
+ border: 1px solid red;
+}
+.tweets::-webkit-scrollbar {
+  display: none;
 }
 /* right side treading section */
 .treading {
-
+ min-height: 100vh;
+ overflow-y: scroll;
+ width: 30vw;
+ border: 1px solid green;
 }

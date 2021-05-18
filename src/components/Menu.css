@@ -1,0 +1,56 @@
+.menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+.menu::-webkit-scrollbar {
+  display: none;
+}
+.menu > ul > li{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.iconButton{
+  color: black !important;
+}
+.iconButton:hover{
+  background-color: #E1E8ED !important;
+  border-radius: 45px !important;
+  color: #1DA1F2 !important;
+}
+.menu_span{
+  margin-left: 10px;
+}
+.menu ul li{
+  list-style-type: none;
+}
+/* button */
+.btn_tweet{
+ color: white;
+ border: none;
+ outline: none;
+ background-color: #1DA1F2 ;
+ font-size: 1rem;
+ width: 11rem;
+ height: 3rem;
+ border-radius: 2rem;
+ margin-top: 5px;
+ cursor: pointer;
+}
+/* footer */
+.menu__profile{
+  box-sizing: border-box !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+   margin: 12vh 80px 1.5rem 0 ;
+   cursor: pointer;
+   padding: 4px;
+}
+.menu__profile>div{
+  margin-right: 10px;
+  font-size: small;
+}

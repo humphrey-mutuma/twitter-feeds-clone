@@ -1,17 +1,20 @@
-import './App.css';
+import "./App.css";
+import Menu from "./components/Menu";
+import Treading from "./components/Treading";
+import Tweets from "./components/Tweets";
 
 function App() {
   return (
     <div className="app">
-     <section className="menu">
-       <h1>,Lorem ipsum dolor sit amet.</h1>
-     </section>
-     <main className="tweets">
-       <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis culpa ipsum quaerat rem eligendi.</h2>
-     </main>
-     <section className="treading">
-       <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-     </section>
+      <section className="app__menu">
+        <Menu />
+      </section>
+      <main className="tweets">
+        <Tweets />
+      </main>
+      <section className="treading">
+        <Treading />
+      </section>
     </div>
   );
 }
