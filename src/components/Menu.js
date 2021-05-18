@@ -26,9 +26,7 @@ const Menu = () => {
         <li>
           <IconButton className="iconButton">
             <HomeIcon />
-            <span className="menu_span" className="menu_span">
-              Home
-            </span>
+            <span className="menu_span">Home</span>
           </IconButton>
         </li>
         <li>

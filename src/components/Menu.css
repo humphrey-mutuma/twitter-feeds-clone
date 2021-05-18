@@ -18,7 +18,7 @@
 }
 .iconButton:hover{
   background-color: #E1E8ED !important;
-  border-radius: 45px !important;
+  border-radius: 2rem !important;
   color: #1DA1F2 !important;
 }
 .menu_span{
@@ -37,6 +37,8 @@
  border-radius: 2rem !important;
  margin-top: 5px !important;
  cursor: pointer;
+   text-transform: inherit !important;
+
 }
 /* footer */
 .menu__profile{

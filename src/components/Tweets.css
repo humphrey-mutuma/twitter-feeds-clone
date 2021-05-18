@@ -14,6 +14,9 @@
   height: 3rem !important ;
   width: 3rem !important;
 }
+.tweets__avatar:hover{
+  background-color: white !important;
+}
 .tweets__article{
   margin-top: 7.5vh;
   border-bottom: 1px solid #E1E8ED;
@@ -22,22 +25,46 @@
   padding-top: 15px;
 }
 .tweets__articleRight{
-  margin-left: 1.5rem;
   width: 36vw;
-
 }
 .tweets__input{
   display: flex;
   flex-direction: column;
  justify-content: center;
 }
-.tweets__input> span{
+.tweets__inputField{
   display: flex;
   flex-direction: row;
   align-items: center;
-  color: #1DA1F2 !important;
-  padding: 7px;
+  padding-top: 7px;
 }
+.tweet__whoCanReplyIcon{
+  margin: 2px !important;
+  padding: 2px !important;
+}
+.tweet__whoCanReplyIcon:hover{
+  background-color: white !important;
+}
+.tweet__whoCanReplyText{
+  color: #1DA1F2 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  padding: 5px;
+  margin: 0;
+}
+.tweet__whoCanReplyText:hover{
+  background-color: #1da0f217 !important;
+  border-radius: 2rem;
+  width: max-content;
+}
+.tweet__whoCanReplyText > .MuiSvgIcon-root{
+  margin: 0 5px 0 0;
+  height: 18px;
+  width: 18px;
+}
+/* tweets icons */
 .tweets_icons{
   display: flex;
   align-items: center;
@@ -52,7 +79,7 @@
   color: white !important;
   background-color: #1DA1F2 !important;
   border-radius: 2rem !important;
-  text-transform: none;
+  text-transform: inherit !important;
 }
 
 

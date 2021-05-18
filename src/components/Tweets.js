@@ -8,6 +8,7 @@ import "./Tweets.css";
 import PublicIcon from "@material-ui/icons/Public";
 import PollOutlinedIcon from "@material-ui/icons/PollOutlined";
 import EventOutlinedIcon from "@material-ui/icons/EventOutlined";
+import Tweet from "./Tweet";
 
 const Tweets = () => {
   return (
@@ -21,16 +22,26 @@ const Tweets = () => {
       {/* tweeting section */}
       <article className="tweets__article">
         <div>
-          <Avatar className="user__avatar" />
+          <IconButton className="tweets__avatar">
+            <Avatar
+              src="/"
+              alt="Humphrey Mutuma profile"
+              className="user__avatar"
+            />
+          </IconButton>
         </div>
         <div className="tweets__articleRight">
           <div className="tweets__input">
-            <span>
+            <span className="tweets__inputField">
               <Input placeholder="What's happening?" />
             </span>
             <span>
-              <PublicIcon />
-              Everyone can reply
+              <IconButton className="tweet__whoCanReplyIcon">
+                <span className="tweet__whoCanReplyText">
+                  <PublicIcon />
+                  Everyone can reply
+                </span>
+              </IconButton>
             </span>
           </div>
 
@@ -60,43 +71,15 @@ const Tweets = () => {
           </div>
         </div>
       </article>
-      <h1>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-        exercitationem minus dolor vitae quidem ex minima quos, quibusdam
-        reiciendis ducimus eaque odio rerum voluptas, explicabo nemo quisquam
-        perferendis error qui.
-      </h1>
-      <h1>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-        exercitationem minus dolor vitae quidem ex minima quos, quibusdam
-        reiciendis ducimus eaque odio rerum voluptas, explicabo nemo quisquam
-        perferendis error qui.
-      </h1>
-      <h1>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-        exercitationem minus dolor vitae quidem ex minima quos, quibusdam
-        reiciendis ducimus eaque odio rerum voluptas, explicabo nemo quisquam
-        perferendis error qui.
-      </h1>
-      <h1>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-        exercitationem minus dolor vitae quidem ex minima quos, quibusdam
-        reiciendis ducimus eaque odio rerum voluptas, explicabo nemo quisquam
-        perferendis error qui.
-      </h1>
 
-      <h1>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-        exercitationem minus dolor vitae quidem ex minima quos, quibusdam
-        reiciendis ducimus eaque odio rerum voluptas, explicabo nemo quisquam
-        perferendis error qui.
-      </h1>
-      <h1>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-        exercitationem minus dolor vitae quidem ex minima quos, quibusdam
-        reiciendis ducimus eaque odio rerum voluptas, explicabo nemo quisquam
-        perferendis error qui.
-      </h1>
+      {/* tweets sections */}
+      <section>
+        <Tweet />
+        <Tweet />
+        <Tweet />
+        <Tweet />
+        <Tweet />
+      </section>
     </div>
   );
 };

@@ -1,0 +1,56 @@
+.tweet_main{
+  border-bottom: 1px solid #E1E8ED;
+  display: flex;
+}
+.tweet__avatar:hover{
+  background-color: white !important;
+}
+.tweet__contents > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tweet__contents > header >div >p{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* username */
+.tweet__username{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  margin: 0 10px;
+
+}
+/* tweet__text */
+/* ************** */
+/* footer */
+.tweet__footer{
+  margin-top: 2px;
+}
+.tweet__footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
+/* icons */
+.tweet__replyIcon:hover{
+  color:  #1DA1F2 !important;
+  background-color:  #1da0f21e !important;
+}
+.tweet__retweetIcon:hover{
+  color: green !important;
+  background-color: rgba(0, 128, 0, 0.08) !important;
+}
+.tweet__likeIcon:hover{
+  color: red !important;
+  background-color: rgba(255, 0, 0, 0.08) !important;
+}
+.tweet__shareIcon:hover{
+  color:  #1DA1F2 !important;
+  background-color:  #1da0f21e !important;
+}
