@@ -35,9 +35,9 @@
  width: 11rem !important;
  height: 3rem !important;
  border-radius: 2rem !important;
- margin-top: 5px !important;
+ margin: 5px !important;
  cursor: pointer;
-   text-transform: inherit !important;
+ text-transform: inherit !important;
 
 }
 /* footer */

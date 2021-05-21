@@ -1,6 +1,10 @@
 .tweet_main{
   border-bottom: 1px solid #E1E8ED;
   display: flex;
+    cursor: pointer;  
+}
+.tweet_main:hover{
+  background-color: #F5F8FA;
 }
 .tweet__avatar:hover{
   background-color: white !important;
@@ -14,6 +18,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.tweet__userlink{
+    color:black !important;
+}
+.tweet__username,.tweet__timeSent{
+  color: gray;
 }
 /* username */
 .tweet__username{

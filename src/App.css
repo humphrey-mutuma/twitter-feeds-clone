@@ -9,7 +9,6 @@
  min-height: 100vh;
  overflow-y: scroll;
  width: 20vw;
- border: 1px solid blue;
 }
 section::-webkit-scrollbar {
   display: none;
@@ -19,15 +18,14 @@ section::-webkit-scrollbar {
  min-height: 100vh;
  overflow-y: scroll;
  width: 43vw;
- border: 1px solid red;
+  border: 1px solid #E1E8ED;
 }
 .app__tweets::-webkit-scrollbar {
   display: none;
 }
 /* right side app__treading section */
 .app__treading {
- min-height: 100vh;
+ max-height: min-content;
  overflow-y: scroll;
  width: 30vw;
- border: 1px solid green;
 }

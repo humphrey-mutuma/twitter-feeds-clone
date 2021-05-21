@@ -1,0 +1,7 @@
+.TreadingTopicsToFollow{
+  padding: 10px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.404);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
